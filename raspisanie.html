@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание работы кинотеатра</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .schedule-header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        .schedule-table th,
+        .schedule-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .schedule-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .schedule-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        .schedule-table tbody tr:last-of-type {
+            border-bottom: 2px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="schedule-header">Расписание работы кинотеатра</h1>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>День недели</th>
+                    <th>Время работы</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Понедельник</td>
+                    <td>10:00 - 22:00</td>
+                </tr>
+                <tr>
+                    <td>Вторник</td>
+                    <td>10:00 - 22:00</td>
+                </tr>
+                <tr>
+                    <td>Среда</td>
+                    <td>10:00 - 22:00</td>
+                </tr>
+                <tr>
+                    <td>Четверг</td>
+                    <td>10:00 - 23:00</td>
+                </tr>
+                <tr>
+                    <td>Пятница</td>
+                    <td>10:00 - 23:00</td>
+                </tr>
+                <tr>
+                    <td>Суббота</td>
+                    <td>10:00 - 23:00</td>
+                </tr>
+                <tr>
+                    <td>Воскресенье</td>
+                    <td>10:00 - 22:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
